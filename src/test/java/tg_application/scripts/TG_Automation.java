@@ -1,6 +1,5 @@
 package tg_application.scripts;
 
-import api.pojo_classes.go_rest.UpdateUserWithLombok;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;
 import io.restassured.RestAssured;
@@ -9,7 +8,6 @@ import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import lombok.ToString;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
