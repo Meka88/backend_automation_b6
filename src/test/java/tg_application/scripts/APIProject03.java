@@ -79,7 +79,7 @@ public class APIProject03 {
         int dbIdInt = dbId.intValue();
 
         List<Object> formattedDBResult = new ArrayList<>(dbResult);
-
+        // This is where we replace BigDecimal id with our cast int id
         formattedDBResult.set(0, dbIdInt);
 
         for (Object o : formattedDBResult) {
